@@ -12,7 +12,7 @@ Pruebas automatizadas sobre [Sauce Demo](https://www.saucedemo.com/) con Python,
 
 
 pip install pytest selenium pytest-html
-python -m pytest
+pytest -v--html=reports/report.html
 
 
 El reporte HTML se genera en reports/report.html.
