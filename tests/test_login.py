@@ -1,7 +1,7 @@
 import pytest
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from utils.helpers import login
+
 
 def test_login_exitoso():
     driver = webdriver.Chrome()

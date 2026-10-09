@@ -7,15 +7,7 @@ def test_inventory():
     driver = webdriver.Chrome()
 
     try:
-        driver.get("https://www.saucedemo.com/")
-        
-        usuario = driver.find_element(By.ID, "user-name")
-        password= driver.find_element(By.ID, "password")
-        boton_login= driver.find_element(By.ID, "login-button")
-
-        usuario.send_keys("standard_user")
-        password.send_keys("secret_sauce")
-        boton_login.click()
+        login(driver)
 
 # Validacion del titulo de la pagina
         assert driver.title == "Swag Labs"
