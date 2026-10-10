@@ -14,6 +14,10 @@ Pruebas automatizadas sobre [Sauce Demo](https://www.saucedemo.com/) con Python,
 pip install pytest selenium pytest-html
 pytest -v--html=reports/report.html
 
+## Screenshots
+-* reports/screenshort/  guarda automaticamentes las capturas de fallos y 
+report_ejemplo_fallo_html muestra el ejemplo-
+
 
 El reporte HTML se genera en reports/report.html.
 
